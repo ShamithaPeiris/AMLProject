@@ -19,7 +19,7 @@ st.set_page_config(
 # --- CUSTOM STYLING ---
 st.markdown("""
     <style>
-    .stApp { background-color: #0e1117; color: #fafafa; }
+    .stApp { background-color: #616161; color: #fafafa; }
     h1, h2, h3 { color: #00E676 !important; font-family: 'Segoe UI', sans-serif; }
     .stMetric { 
         background-color: #1e1e1e; 
