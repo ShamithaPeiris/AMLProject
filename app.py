@@ -19,7 +19,7 @@ st.set_page_config(
 # --- CUSTOM STYLING ---
 st.markdown("""
     <style>
-    .stApp { background-color: #616161; color: #fafafa; }
+    .stApp { background-color: #0e1117; color: #fafafa; }
     h1, h2, h3 { color: #00E676 !important; font-family: 'Segoe UI', sans-serif; }
     .stMetric { 
         background-color: #1e1e1e; 
@@ -120,8 +120,8 @@ with st.sidebar:
         st.info(f"Category: **{sel_cat}**")
 
 # --- 4. MAIN DASHBOARD ---
-st.title("🇱🇰 Intelligent Market Analysis")
-st.markdown("Advanced Price Forecasting & Market Dynamics for Sri Lanka.")
+st.title("Intelligent Market Analysis")
+st.markdown("Price Forecasting & Market Dynamics for Sri Lanka.")
 
 if not model or df_full.empty:
     st.error("⚠️ System Check Failed: Missing Model or Data.")
